@@ -1,0 +1,3 @@
+test_dict:
+  name: host2
+  password: "{{ test_secret }}"
