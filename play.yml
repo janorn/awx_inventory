@@ -1,0 +1,9 @@
+---
+- name: Test inventory
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: Print message
+      ansible.builtin.debug:
+        msg: "Host has dict"
+      when: test_dict is defined
