@@ -1,0 +1,2 @@
+test_var: FOO
+test_secret: "{{ test_secret_vault }}"
